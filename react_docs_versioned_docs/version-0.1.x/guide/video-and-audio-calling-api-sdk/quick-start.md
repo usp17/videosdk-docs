@@ -766,7 +766,7 @@ function ParticipantView({ participantId }: { participantId: string }) {
 
 ## Final Output
 
-We are done with implementation of customised video calling app in reeact js using Video SDK. To explore more features go through Basic and Advanced features.
+We are done with implementation of customised video calling app in react js using Video SDK. To explore more features go through Basic and Advanced features.
 
 import ReactPlayer from 'react-player'
 
