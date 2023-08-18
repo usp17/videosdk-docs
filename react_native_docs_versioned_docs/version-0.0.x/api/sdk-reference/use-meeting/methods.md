@@ -10,7 +10,7 @@ title: Methods returned by useMeeting Hook
 ### join()
 
 - It is used to join a meeting.
-- During initialization using the [`<MeetingProvider>`](../meeting-provider), if `joinWithoutInteraction` is set to `true`, participant will automatically join the meeting. If it is `false` explicity call for `join()` should be made.
+- During initialization using the [`<MeetingProvider>`](../meeting-provider), if `joinWithoutInteraction` is set to `true`, participant will automatically join the meeting. If it is `false` explicitly call for `join()` should be made.
 
 #### Events associated with `join()`:
 
@@ -25,7 +25,7 @@ title: Methods returned by useMeeting Hook
 
 #### Participant having `allow_join` permission inside token
 
-- If a token containing the permission `allow_join`, then the participant will join the meeting derectly after calling `join()`.
+- If a token contains the permission `allow_join`, then the participant will join the meeting directly after calling `join()`.
 
 ---
 
